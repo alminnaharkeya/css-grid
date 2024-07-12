@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+.img-1{
+    height: 200px;
+    width: 160px;      
+}
+.img-5{
+    height: 200px;
+    width: 160px;   
+}
+.img-6{
+    height: 200px;
+    width: 190px; 
+}
+.img-7{
+    height: 200px;
+    width: 160px; 
+} 
+.img-8{
+    height: 200px;
+    width: 160px; 
+}
+.img-9{
+    height: 200px;
+    width: 160px; 
+}
+.img-10{
+    height: 200px;
+    width: 160px; 
+}
+.img-11{
+    height: 200px;
+    width: 160px; 
+}
+.img-12{
+    height: 200px;
+    width: 160px; 
+}
+.img-13{
+    height: 200px;
+    width: 160px;     
+}
+.img-2{
+    height: 200px;
+    width: 160px;
+}
+.img-3{
+    height: 200px;
+    width: 160px;
+}
+.container{
+    margin: 0 auto;
+    max-width:80%;
+} 
+.card{
+    display: grid;  
+    grid-gap:25px;
+    grid-template-columns: repeat(4,1fr)
+}
+.box{
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    font-style: italic;
+    height: 250px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 10px;
+}  
+#card-area{
+    background-color: cadetblue;
+}
+.card-area-start{
+    padding: 40px 0px 40px 0px;   
+}
+@media screen and (max-width:1200px){
+    .card{
+        grid-template-columns: repeat(5,1fr)  
+    }
+}
+@media screen and (max-width:1024px){
+    .card{
+        grid-template-columns: repeat(4,1fr)  
+    }
+}
+@media screen and (max-width:720px){
+    .card{
+        grid-template-columns: repeat(3,1fr)  
+    }
+}
+@media screen and (max-width:648px){
+    .card{
+        grid-template-columns: repeat(2,1fr)  
+    }
+}
+
+        
