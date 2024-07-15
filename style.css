@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: cadetblue;
 }   
 .img-1{
     height: 200px;
@@ -52,12 +55,13 @@
 }
 .container{
     margin: 0 auto;
-    max-width:80%;
+    max-width:80%;   
 } 
 .card{
     display: grid;  
     grid-gap:25px;
-    grid-template-columns: repeat(4,1fr)
+    background-color: cadetblue;
+    grid-template-columns: repeat(4,1fr)       
 }
 .box{
     background-color: white;
@@ -68,9 +72,6 @@
     width: 200px;
     padding: 30px;
     border-radius: 10px;
-}  
-#card-area{
-    background-color: cadetblue;
 }
 .card-area-start{
     padding: 40px 0px 40px 0px;   
